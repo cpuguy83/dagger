@@ -234,22 +234,22 @@
     "@algolia/logger-common" "4.13.0"
     "@algolia/requester-common" "4.13.0"
 
-"@amplitude/analytics-connector@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-connector/-/analytics-connector-1.4.1.tgz#eb8e693f0fcc5c095a5949c84be9be84af642833"
-  integrity sha512-trahVHrwlAoHI/JmysS+HUK/Ot50zDAHoxeqKZSfaiSeNBW5gvLDQ/mTrhksOTxZmaw7CGdqEcaiPoPRmo96bA==
+"@amplitude/analytics-connector@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-connector/-/analytics-connector-1.4.4.tgz#3bed72b0b3190a4426a529473ced962892706116"
+  integrity sha512-6JcE1nxrprJt6pHqqDQb7FXRqJmFHG7KJPe0jNZaAvfll4mWKVqZu8W9IV3XiN1P+xgHIV1NN+i3PLOAZWEhXg==
   dependencies:
-    "@amplitude/ua-parser-js" "0.7.26"
+    "@amplitude/ua-parser-js" "0.7.31"
 
 "@amplitude/types@^1.6.1":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@amplitude/types/-/types-1.6.1.tgz#ed15be42746526d6f7087bedc916734e13be56fd"
   integrity sha512-GSaNbROpG5gaoLQPo9crpCkB+BgfN7ZtK6SPJaQC2IX2xNqvfq/RZwYLhMZyNfZw/Nce0Z6lKYXCoNPyhdL26Q==
 
-"@amplitude/ua-parser-js@0.7.26":
-  version "0.7.26"
-  resolved "https://registry.yarnpkg.com/@amplitude/ua-parser-js/-/ua-parser-js-0.7.26.tgz#18d889d84d2ba90c248ab6fcd7e3dd07f1c9c86e"
-  integrity sha512-62/Rid6YQ7F2KT/5vTre41Y26ivrEoFC8lbrsJZqBKaiXMJWG0YpNv9RgxNSaZS2jPLVQgoB/FFeWxihOLfIcg==
+"@amplitude/ua-parser-js@0.7.31":
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/@amplitude/ua-parser-js/-/ua-parser-js-0.7.31.tgz#749bf7cb633cfcc7ff3c10805bad7c5f6fbdbc61"
+  integrity sha512-+z8UGRaj13Pt5NDzOnkTBy49HE2CX64jeL0ArB86HAtilpnfkPB7oqkigN7Lf2LxscMg4QhFD7mmCfedh3rqTg==
 
 "@amplitude/utils@^1.0.5":
   version "1.6.1"
@@ -2704,13 +2704,13 @@ algoliasearch@^4.13.0:
     "@algolia/requester-node-http" "4.13.0"
     "@algolia/transporter" "4.13.0"
 
-amplitude-js@^8.18.1:
-  version "8.18.1"
-  resolved "https://registry.yarnpkg.com/amplitude-js/-/amplitude-js-8.18.1.tgz#ed3dca868f2dc133273840e22bfcd3626c3a2862"
-  integrity sha512-TwCZFrivkqZH2/iUp2QN/PFir3+hfRdCidDA2J81HR0z5F9NrvG0B+0bqrtY3MTjoeakmAcoj55ehBGd91QEBg==
+amplitude-js@^8.20.0:
+  version "8.20.0"
+  resolved "https://registry.yarnpkg.com/amplitude-js/-/amplitude-js-8.20.0.tgz#5ddcff9246cefe399e2b376a0a7b636d29a416f1"
+  integrity sha512-v0BIgZLKNMa5xeT/fJoWKopMEKcT0ek6F+wDmOQTaiXgB60qOppuKoGzssalQ4+67Bqrx+IUcV8xpUAkwRIRNg==
   dependencies:
-    "@amplitude/analytics-connector" "1.4.1"
-    "@amplitude/ua-parser-js" "0.7.26"
+    "@amplitude/analytics-connector" "1.4.4"
+    "@amplitude/ua-parser-js" "0.7.31"
     "@amplitude/utils" "^1.0.5"
     "@babel/runtime" "^7.3.4"
     blueimp-md5 "^2.10.0"
